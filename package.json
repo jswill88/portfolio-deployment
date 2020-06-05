@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jswill88/portfolio-deployment/issues"
   },
-  "homepage": "https://github.com/jswill88/portfolio-deployment#readme"
+  "homepage": "https://github.com/jswill88/portfolio-deployment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
