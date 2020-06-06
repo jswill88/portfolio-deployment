@@ -1,3 +1,5 @@
+https://josh-williams-portfolio.herokuapp.com/
+
 # Class 5: Deployment
 
 ## Overview
@@ -39,10 +41,10 @@ Today, we will be deploying your portfolio to a real web server. This will requi
 - [x] Confirm app is live!
 - [x] Connect your app to master
 - [x] Move portfolio website content to the `public` folder
-- [ ] Check in your server code to GitHub (`master` branch)
-- [ ] View Heroku logs (Activity tab)
-- [ ] Confirm app with portfolio content is live
-- [ ] Win.
+- [x] Check in your server code to GitHub (`master` branch)
+- [x] View Heroku logs (Activity tab)
+- [x] Confirm app with portfolio content is live
+- [x] Win.
 
 Number and name of feature: **Feature 1: Deployment**
 
@@ -50,7 +52,17 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 3:30pm
 
-Finish time: 
+Finish time: 4:51pm
 
-Actual time needed to complete: 
-//why did we need to make a new repository for this
+Actual time needed to complete: 1 hour 21 minutes
+
+
+Number and name of feature: **Feature 2: Add Functionality**
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 5:34pm
+
+Finish time:
+
+Actual time needed to complete:
