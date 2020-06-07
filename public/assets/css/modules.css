@@ -405,7 +405,6 @@ button,
 			#main {
 				margin-left: 20%;
 			}
-
   }
   
   /* Narrower */
@@ -413,6 +412,7 @@ button,
 	#headerToggle {
 		display: none;
 	}
+
 
 	@media screen and (max-width: 736px) { 
 		/* Originally: */
