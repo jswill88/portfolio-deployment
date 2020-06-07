@@ -821,6 +821,7 @@ br.clear {
 		}
 
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
+	
 
 			.row {
 				display: flex;
@@ -1788,7 +1789,88 @@ br.clear {
 
     #main > section.one {
       background-color: rgb(136, 138, 138);
-      background-image: url("../../images/brick-wall.jpg");
+      animation: 20s change-image infinite;
+    }
+    @keyframes change-image {
+      0% {
+        background-image: url("../../images/gilles-lambert-mSK5nNsAsLY-unsplash.jpg");
+      }
+      33.3333333333% {
+        background-image: url("../../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg");
+      }
+      66.6666666666% {
+        background-image: url("../../images/andrew-neel-xNiJJHl0WP4-unsplash.jpg");
+      }
+      100% {
+        background-image: url("../../images/gilles-lambert-mSK5nNsAsLY-unsplash.jpg");
+      }
+    }
+    #dots {
+      height: 20px;
+      width: 60px;
+      overflow: auto;
+      margin: auto;
+      margin-top: 2%;
+    }
+    #dots div {
+      border-radius: 50%;
+      border: 1px solid white;
+      height: 10px;
+      width: 10px;
+      margin: 5px;
+      background-color: transparent;
+      float: left;
+    }
+    #dots div:first-child {
+      animation: first-dot 20s infinite;
+    }
+    @keyframes first-dot {
+      0% {
+        background-color: white;
+      }
+      33.3333333333% {
+        background-color: transparent;
+      }
+      66.6666666667% {
+        background-color: transparent;
+      }
+      100% {
+        background-color: white;
+      }
+    }
+    #dots div:nth-last-of-type(2) {
+      animation: second-dot 20s infinite;
+    }
+    @keyframes second-dot {
+      0% {
+        background-color: transparent;
+      }
+      33.3333333333%{
+        background-color: white;
+      }
+      66.6666666667% {
+        background-color: transparent;
+      }
+      100% {
+        background-color: transparent;
+      }
+    }
+    #dots div:last-of-type {
+      animation: third-dot 20s infinite;
+    }
+    @keyframes third-dot {
+      0% {
+        background-color: transparent;
+      }
+      33.3333333333%{
+        background-color: transparent;
+      }
+      66.6666666667% {
+        background-color: white;
+      }
+      100% {
+        background-color: transparent;
+      }
     }
 
     #main > section.two {
